@@ -1,0 +1,30 @@
+.threesec{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    text-align: center;
+    .threetext{
+        span{
+            font-size: $lowmed-font;
+            color: $color-titles;
+        }
+        h2{
+            font-size: $lowmed-font;
+        }
+        img{
+            width: 350px;
+            filter: drop-shadow(15px 15px 2px rgb(82, 82, 82));
+            padding: 20px;
+        }
+        .game2{
+            width: 300px;
+        }
+    }
+    .threeimages{
+        img{
+            width: 600px;
+            filter: drop-shadow(15px 15px 2px rgb(82, 82, 82));
+        }
+    }
+    
+}

@@ -1,0 +1,13 @@
+.sec{
+    text-align: center;
+    span{
+        color: $color-titles;
+        font-size: 1.5rem;
+    }
+    h2{
+        font-size: $lowmed-font;
+    }
+    p{
+        font-size: $low-font;
+    }
+}

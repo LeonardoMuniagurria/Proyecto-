@@ -1,0 +1,33 @@
+$color-body: rgb(46, 46, 46);
+$color-fontp: #fff;
+$color-titles:rgb(240, 129, 38);
+$big-font: 5rem;
+$bigmed-font:4rem;
+$medium-font: 2.5rem;
+$lowmed-font:2rem;
+$low-font: 1rem;
+
+
+
+
+@import "startsection";
+@import "secondsection";
+@import "threesec";
+@import "nav";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'League Gothic', sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+section{
+    padding: 70px 8%;
+}
+
+

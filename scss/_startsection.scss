@@ -1,0 +1,30 @@
+.start{
+    background-color: $color-body;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    .starttext{
+        display: flex;
+        flex-direction: column;
+        h1{
+            display: flex;
+            justify-content: center;
+            font-size: $big-font;
+            color: $color-titles;
+            text-shadow: 3px 3px rgb(182, 148, 0);
+        }
+        p{
+            display: flex;
+            text-align: center;
+            font-size: $medium-font;
+            color:$color-fontp
+        }
+    }
+    .startimg{
+        img{
+            filter: drop-shadow(20px 20px 2px rgb(0, 0, 0));
+        }
+    }
+    
+}
